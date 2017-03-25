@@ -1,0 +1,27 @@
+{
+  "name": "weDevelop",
+  "homepage": "http://wedevelopar.github.io/",
+  "authors": [
+    "Matias Pierobon <matias.pierobonm@gmail.com> (http://matias-pierobon.github.io/)"
+  ],
+  "description": "My Portfolio",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "portfolio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "jquery.nicescroll": "^3.6.6"
+  }
+}
