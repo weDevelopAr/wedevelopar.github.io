@@ -21,7 +21,15 @@
 
   <style>
     .video-wrap{
-      
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .video-wrap video{
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
@@ -53,6 +61,11 @@
     </nav>
   </header>
   <section id="myProfile">
+    <div class="video-wrap">
+      <video preload="auto" loop autoplay style="visibility: visible">
+          <source type="video/webm" src="/dist/videos/coding.webm">
+      </video>
+    </div>
     <div class="container">
       <div class="row">
         <div class="image col-xs-12 col-md-4 text-center">
@@ -76,11 +89,6 @@
             <li>C++</li>
           </ul>
         </div>
-      </div>
-      <div class="video-wrap">
-        <video class="slider-video" width="1800" height="700" preload="auto" loop="" style="visibility: visible; width: 1391px; height: 784px;">
-            <source type="video/webm" src="/dist/videos/coding.webm">
-        </video>
       </div>
     </div>
   </section>
